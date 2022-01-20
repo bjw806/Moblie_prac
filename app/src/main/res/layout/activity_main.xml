@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="학번 : "
+            />
+        <!-- 아래의 text를 수정해야 함  -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="2019253066"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="이름 : "
+            />
+        <!-- 아래의 text를 수정해야 함  -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="복정우"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnProblem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1번 문제"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnProblem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2번 문제"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnProblem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3번 문제"
+        />
+
+</LinearLayout>
